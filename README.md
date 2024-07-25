@@ -1,8 +1,10 @@
-# React + Vite
+## Real Estate App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### App Link - 
 
-Currently, two official plugins are available:
+#### demo video 👇
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/user-attachments/assets/0424aaa7-aa34-435c-99c2-592b2ab9586e
+
+
+
