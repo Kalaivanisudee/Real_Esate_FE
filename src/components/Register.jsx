@@ -17,7 +17,7 @@ const Register = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:8000/api/auth/register', formData);
+            await axios.post('https://real-estate-be-oucj.onrender.com/api/auth/register', formData);
             // Redirect to login page after successful registration
             alert("sucessfully registered")
             navigate('/login');

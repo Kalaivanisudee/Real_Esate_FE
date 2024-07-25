@@ -25,7 +25,7 @@ const PropertyList = () => {
         setLoading(true);
         setError('');
         try {
-            const res = await axios.get(`http://localhost:8000/api/properties/`, { params: searchParams });
+            const res = await axios.get(`https://real-estate-be-oucj.onrender.com/api/properties/`, { params: searchParams });
             setProperties(res.data);
         } catch (err) {
             setError('Error fetching properties. Please try again.');

@@ -14,7 +14,7 @@ const PropertyList = () => {
 
     const fetchProperties = async () => {
         try {
-            const res = await axios.get(`http://localhost:8000/api/properties/`);
+            const res = await axios.get(`https://real-estate-be-oucj.onrender.com/api/properties/`);
             setProperties(res.data);
             console.log(res.data);
         } catch (err) {
@@ -26,7 +26,7 @@ const PropertyList = () => {
 
     const deleteProperty = async (propertyId) => {
         try {
-            await axios.delete(`http://localhost:8000/api/properties/${propertyId}`);
+            await axios.delete(`https://real-estate-be-oucj.onrender.com/api/properties/${propertyId}`);
             alert("successfully deleted")
             setProperties(properties.filter(property => property._id !== propertyId));
 
