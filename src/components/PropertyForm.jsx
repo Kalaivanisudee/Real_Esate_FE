@@ -65,6 +65,7 @@ const PropertyForm = () => {
                 <div className="form-group">
                     <label>Type</label>
                     <select name="type" value={type} onChange={onChange} className="form-control" required>
+                        <option value="">Select</option>
                         <option value="apartment">Apartment</option>
                         <option value="house">House</option>
                         <option value="condo">Condo</option>
