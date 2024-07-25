@@ -20,7 +20,9 @@ const Register = () => {
             await axios.post('https://real-estate-be-oucj.onrender.com/api/auth/register', formData);
             // Redirect to login page after successful registration
             navigate('/login');
+            alert("Registered Successfully")
         } catch (err) {
+            alert("Already user or Enter valid input")
             console.error(err.message);
         }
     };

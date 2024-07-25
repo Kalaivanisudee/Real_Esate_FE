@@ -34,8 +34,10 @@ const PropertyForm = () => {
         e.preventDefault();
         if (id) {
             await axios.put(`https://real-estate-be-oucj.onrender.com/api/properties/${id}`, formData);
+            alert("Updated Successfully")
         } else {
             await axios.post(`https://real-estate-be-oucj.onrender.com/api/properties`, formData);
+            alert("Property added Successfully")
         }
         navigate('/properties');
     };
